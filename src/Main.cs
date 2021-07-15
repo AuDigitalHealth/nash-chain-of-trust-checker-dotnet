@@ -62,7 +62,10 @@ namespace TrustChainChecker
                         YearText(lblLMTMR2, cert, "CN=Test Medicare Australia Root Certification Authority", "01", "sha256");
                         YearText(lblLMTMOA1, cert, "CN=Test Medicare Australia Organisation Certification Authority", "322e", "sha1");
                         YearText(lblLMTMOA2, cert, "CN=Test Medicare Australia Organisation Certification Authority", "04", "sha256");
-                        YearText(lblLMTMOB1, cert, "CN=Test Medicare Australia Organisation Certification Authority", "6370", "sha1");
+                        // Pre-released version
+                        //YearText(lblLMTMOB1, cert, "CN=Test Medicare Australia Organisation Certification Authority", "6370", "sha1");
+                        // Current version
+                        YearText(lblLMTMOB1, cert, "CN=Test Medicare Australia Organisation Certification Authority", "656e", "sha1");
                     }
                 }
                 x509Store.Close();
@@ -81,7 +84,10 @@ namespace TrustChainChecker
 
                         YearText(lblLMTMOA1, cert, "CN=Test Medicare Australia Organisation Certification Authority", "322e", "sha1");
                         YearText(lblLMTMOA2, cert, "CN=Test Medicare Australia Organisation Certification Authority", "04", "sha256");
-                        YearText(lblLMTMOB1, cert, "CN=Test Medicare Australia Organisation Certification Authority", "6370", "sha1");
+                        // Pre-released version
+                        //YearText(lblLMTMOB1, cert, "CN=Test Medicare Australia Organisation Certification Authority", "6370", "sha1");
+                        // Current version
+                        YearText(lblLMTMOB1, cert, "CN=Test Medicare Australia Organisation Certification Authority", "656e", "sha1");
                     }
                 }
                 x509Store.Close();
@@ -104,7 +110,10 @@ namespace TrustChainChecker
                         YearText(lblCUTMR2, cert, "CN=Test Medicare Australia Root Certification Authority", "01", "sha256");
                         YearText(lblCUTMOA1, cert, "CN=Test Medicare Australia Organisation Certification Authority", "322e", "sha1");
                         YearText(lblCUTMOA2, cert, "CN=Test Medicare Australia Organisation Certification Authority", "04", "sha256");
-                        YearText(lblCUTMOB1, cert, "CN=Test Medicare Australia Organisation Certification Authority", "6370", "sha1");
+                        // Pre-released version
+                        //YearText(lblCUTMOB1, cert, "CN=Test Medicare Australia Organisation Certification Authority", "6370", "sha1");
+                        // Current version
+                        YearText(lblCUTMOB1, cert, "CN=Test Medicare Australia Organisation Certification Authority", "656e", "sha1");
                     }
                 }
                 x509Store.Close();
@@ -123,7 +132,10 @@ namespace TrustChainChecker
 
                         YearText(lblCUTMOA1, cert, "CN=Test Medicare Australia Organisation Certification Authority", "322e", "sha1");
                         YearText(lblCUTMOA2, cert, "CN=Test Medicare Australia Organisation Certification Authority", "04", "sha256");
-                        YearText(lblCUTMOB1, cert, "CN=Test Medicare Australia Organisation Certification Authority", "6370", "sha1");
+                        // Pre-released version
+                        //YearText(lblCUTMOB1, cert, "CN=Test Medicare Australia Organisation Certification Authority", "6370", "sha1");
+                        // Current version
+                        YearText(lblCUTMOB1, cert, "CN=Test Medicare Australia Organisation Certification Authority", "656e", "sha1");
                     }
                 }
                 x509Store.Close();

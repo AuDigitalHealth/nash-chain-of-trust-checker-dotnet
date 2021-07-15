@@ -567,7 +567,7 @@ namespace TrustChainChecker
             this.MinimizeBox = false;
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Medicare Trust Chain Checker (v1.0.0)";
+            this.Text = "Medicare Trust Chain Checker (v1.0.1)";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
